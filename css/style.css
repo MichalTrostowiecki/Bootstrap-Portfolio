@@ -1,0 +1,27 @@
+
+
+
+
+
+
+/* Work section */
+
+
+
+.card {
+    height: auto;
+}
+
+.card:first-child {
+    height: 100%;
+}
+
+.card-img-top {
+    /* This is introduced to make sure all images are same height */
+    height: 100%; 
+    object-fit: cover; 
+}
+
+.card-column {
+    padding: 10px; /* Adjust as needed */
+}
