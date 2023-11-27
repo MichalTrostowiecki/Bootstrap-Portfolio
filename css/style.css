@@ -1,5 +1,12 @@
 body {
-    background-color: rgba(55, 52, 52, 0.171)
+    background-color: rgba(55, 52, 52, 0.171);
+}
+
+
+/* navbar section */
+
+.navbar-nav .nav-link {
+    color: white !important;
 }
 
 
@@ -34,7 +41,20 @@ body {
 }
 
 
-/* about/contact section */
+/* About/contact section */
 .about-me-title {
     margin-bottom: 10px;
+}
+
+.about-me-text {
+    margin-right: 1.2em;
+}
+
+/* Footer section */
+footer {
+    color: white;
+}
+
+footer a {
+    color: white;
 }
