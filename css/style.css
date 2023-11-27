@@ -3,11 +3,22 @@ body {
 }
 
 
-/* navbar section */
 
-.navbar-nav .nav-link {
-    color: white !important;
+/* Navbar section */
+
+.navbar .navbar-nav .nav-link {
+    color: white;
 }
+
+.navbar .nav-link:hover {
+    color: aqua;
+}
+
+/* Main section */
+main {
+    padding-top: 30px;
+}
+
 
 
 /* Work section */
@@ -28,6 +39,7 @@ body {
 .card-column {
     padding: 10px;
 }
+
 
 
 
@@ -57,4 +69,17 @@ footer {
 
 footer a {
     color: white;
+}
+
+.btn {
+    color: white;
+    font-weight: 500;
+}
+
+.btn:hover {
+    box-shadow: 0 0 10px rgb(0, 0, 0, 0.5);
+}
+
+footer a:hover {
+    color: aqua;
 }
