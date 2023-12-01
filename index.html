@@ -15,7 +15,7 @@
             <div class="container-fluid">
 
                 <!-- Navbar Toggler Button -->
-                <button class="navbar-toggler bg-info" type="button" data-bs-toggle="collapse" data-bs-target="#nav-links" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler bg-info" type="button" data-bs-toggle="collapse" data-bs-target="#nav-links" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
@@ -25,10 +25,7 @@
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
-                        <li class="nav-item">
-                            <a  class="nav-link" href="#about-me">About Me</a>
-                        </li>
-                        <li class="nav-item dropdown">
+						<li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Work</a>
                             <ul class="dropdown-menu">
                                 <li><a class="dropdown-item" href="#project1">Project 1</a></li>
@@ -37,6 +34,9 @@
                                 <li><a class="dropdown-item" href="#project4">Project 4</a></li>
                                 <li><a class="dropdown-item" href="#project5">Project 5</a></li>
                             </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about-me">About Me</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#contact-me">Contact Me</a>
@@ -49,13 +49,14 @@
             </div>
         </nav>
     </header>
-    <main>
+
+    <main class="container">
 
         <!-- Hero section -->
         <section class="jumbotron bg-body-secondary rounded-3 p-3" id="hero-section">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-8 col-sm-12 p-4" id="jumbotron-info">
+                    <div class="col-md-8 col-sm-12" id="jumbotron-info">
                         <h1 class="display-4">Michal Trostowiecki</h1>
                         <p class="lead">Frontend Developer</p>
 						<p>
@@ -67,18 +68,14 @@
 						</p>
                     </div>
                     <div class="col-md-4 col-sm-12 d-flex align-items-center">
-                        <img class="img-thumbnail rounded mx-auto d-block" src="./images/avatar.jpg" alt="avatar picture" style="height:auto; width:100%;">
+                        <img class="figure-img img-fluid rounded mx-auto d-block" src="./images/avatar.jpg" alt="avatar picture" style="height:auto; width:100%;">
                     </div>
                 </div>
             </div>
             <hr class="my-4">
-			<div class="container">
-				<div class="row">
-					<div class="col-12 d-flex justify-content-center">
-						<a class="btn btn-info btn-lg w-100 p-1" href="#work-section" role="button">My Work</a>
-					</div>
-				</div>
-			</div>
+			<div class="my-work-link">
+				<a class="btn btn-info btn-lg my-work-btn" href="#work-section" role="button">My Work</a>	
+			</div>	
         </section>
 
         <!-- Work section -->
@@ -96,7 +93,7 @@
 						<div class="row d-flex align-items-stretch">
 
 							<!-- Project 1 -->
-							<div class="col-lg-12 card-column">
+							<article class="col-lg-12 card-column">
 								<div class="card project-card" id="project1">
 									<img class="card-img-top img-fluid" src="./images/project1.jpg" alt="project1">
 									<div class="card-body">
@@ -114,10 +111,10 @@
 										<a class="btn btn-info" href="#">Code</a>
 									</div>
 								</div>
-							</div>
+							</article>
 							
 							<!-- Project 2 -->
-							<div class="col-lg-6 card-column">
+							<article class="col-lg-6 card-column">
 								<div class="card project-card" id="project2">
 									<img class="card-img-top" src="./images/project2.jpg" alt="project2">
 									<div class="card-body">
@@ -135,10 +132,10 @@
 										<a class="btn btn-info" href="#">Code</a>
 									</div>
 								</div>
-							</div>
+							</article>
 
 							<!-- Project 3 -->
-							<div class="col-lg-6 card-column">
+							<article class="col-lg-6 card-column">
 								<div class="card project-card" id="project3">
 									<img class="card-img-top" src="./images/project3.jpg" alt="project3">
 									<div class="card-body">
@@ -156,10 +153,10 @@
 										<a class="btn btn-info" href="#">Code</a>
 									</div>
 								</div>
-							</div>
+							</article>
 
 							<!-- Project 4 -->
-							<div class="col-lg-6 card-column">
+							<article class="col-lg-6 card-column">
 								<div class="card project-card"  id="project4">
 									<img class="card-img-top" src="./images/project4.jpg" alt="project4">
 									<div class="card-body">
@@ -177,10 +174,10 @@
 										<a class="btn btn-info" href="#">Code</a>
 									</div>
 								</div>
-							</div>
+							</article>
 
 							<!-- Project 5 -->
-							<div class="col-lg-6 card-column">
+							<article class="col-lg-6 card-column">
 								<div class="card project-card" id="project5">
 									<img class="card-img-top" src="./images/project5.jpg" alt="project5">
 									<div class="card-body">
@@ -198,7 +195,7 @@
 										<a class="btn btn-info" href="#">Code</a>
 									</div>
 								</div>
-							</div>
+							</article>
 						</div>
 					</div>
 				</div>
@@ -293,9 +290,9 @@
 				<div class="row justify-content-between">
 					
 					 <!-- About Me Section -->
-					 <div class="col-md-6" id="about-me">
-						<h2 class="about-me-title">About Me</h2>
-						<p class="about-me-text">
+					 <div class="col-md-6" id="about-section">
+						<h2 class="about-title">About Me</h2>
+						<p class="about-text">
 							I am a highly motivated and goal-oriented individual with a strong passion for creating things from scratch.
 							Currently, I'm a Frontend Developer seeking a junior position to contribute my skills in HTML, JavaScript, CSS, and React.
 							Open to any opportunity that allows me to learn and contribute effectively to a dynamic development team.

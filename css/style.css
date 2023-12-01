@@ -1,3 +1,5 @@
+
+/* Global styling */
 body {
     background-color: rgba(55, 52, 52, 0.171);
     
@@ -29,6 +31,16 @@ main {
     padding: 1rem;
 }
 
+.figure-im {
+    height: auto;
+    width: 100%;
+}
+
+.my-work-btn {
+    width: 100%;
+    
+}
+
 
 /* Work section */
 .card {
@@ -40,7 +52,6 @@ main {
 }
 
 .card-img-top {
-    /* This is introduced to make sure all images are same height */
     height: 100%; 
     object-fit: cover; 
 }
@@ -49,6 +60,9 @@ main {
     padding: 10px;
 }
 
+.project-card {
+    cursor: pointer;
+}
 
 
 
@@ -63,11 +77,11 @@ main {
 
 
 /* About/contact section */
-.about-me-title {
+.about-title {
     margin-bottom: 10px;
 }
 
-.about-me-text {
+.about-text {
     margin-right: 1.2em;
 }
 
