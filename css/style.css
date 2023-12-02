@@ -17,6 +17,10 @@ body {
     color: aqua;
 }
 
+.dropdown-item {
+    color: white;
+}
+
 /* Main section */
 main {
     padding-top: 30px;
@@ -38,9 +42,12 @@ main {
 
 .my-work-btn {
     width: 100%;
-    
 }
 
+.figure-img {
+    height: auto;
+    width: 100%;
+}
 
 /* Work section */
 .card {
@@ -76,14 +83,9 @@ main {
 }
 
 
-/* About/contact section */
-.about-title {
-    margin-bottom: 10px;
-}
+/* Contact section */
 
-.about-text {
-    margin-right: 1.2em;
-}
+
 
 /* Footer section */
 footer {

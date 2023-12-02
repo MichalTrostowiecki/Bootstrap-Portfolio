@@ -27,7 +27,7 @@
                         </li>
 						<li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Work</a>
-                            <ul class="dropdown-menu">
+                            <ul class="dropdown-menu bg-dark">
                                 <li><a class="dropdown-item" href="#project1">Project 1</a></li>
                                 <li><a class="dropdown-item" href="#project2">Project 2</a></li>
                                 <li><a class="dropdown-item" href="#project3">Project 3</a></li>
@@ -36,7 +36,7 @@
                             </ul>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#about-me">About Me</a>
+                            <a class="nav-link" href="#hero-section">About Me</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#contact-me">Contact Me</a>
@@ -59,16 +59,20 @@
                     <div class="col-md-8 col-sm-12" id="jumbotron-info">
                         <h1 class="display-4">Michal Trostowiecki</h1>
                         <p class="lead">Frontend Developer</p>
-						<p>
-							Highly motivated and goal-oriented individual with a strong passion for creating things from scratch.
-							Seeking a junior position as a Developer, whether it be Frontend, Backend, or Full Stack, to contribute
-							my skills in HTML, JavaScript, CSS, and React while continuously expanding my knowledge and growing as a
-							professional in the field. Open to any opportunity that allows me to learn and contribute effectively to
-							a dynamic development team.
-						</p>
+
+						<div>
+							<h5 class="mb-2 mt-5 about-me">About Me</h5>
+							<p>
+								Highly motivated and goal-oriented individual with a strong passion for creating things from scratch.
+								Seeking a junior position as a Developer, whether it be Frontend, Backend, or Full Stack, to contribute
+								my skills in HTML, JavaScript, CSS, and React while continuously expanding my knowledge and growing as a
+								professional in the field. Open to any opportunity that allows me to learn and contribute effectively to
+								a dynamic development team.
+							</p>
+						</div>
                     </div>
                     <div class="col-md-4 col-sm-12 d-flex align-items-center">
-                        <img class="figure-img img-fluid rounded mx-auto d-block" src="./images/avatar.jpg" alt="avatar picture" style="height:auto; width:100%;">
+                        <img class="figure-img img-fluid rounded mx-auto d-block" src="./images/avatar.jpg" alt="avatar picture">
                     </div>
                 </div>
             </div>
@@ -284,27 +288,19 @@
 			</div>
 		</section>
 
-        <!-- About/Contact section -->
-        <section class="about-contact">
+        <!-- Contact section -->
+        <section class="contact">
 			<div class="container p-5">
-				<div class="row justify-content-between">
-					
-					 <!-- About Me Section -->
-					 <div class="col-md-6" id="about-section">
-						<h2 class="about-title">About Me</h2>
-						<p class="about-text">
-							I am a highly motivated and goal-oriented individual with a strong passion for creating things from scratch.
-							Currently, I'm a Frontend Developer seeking a junior position to contribute my skills in HTML, JavaScript, CSS, and React.
-							Open to any opportunity that allows me to learn and contribute effectively to a dynamic development team.
-						</p>
-					</div>
-		
-					<!-- Contact Section -->
-					<div class="col-md-6">
+				<div class="row">
+
+					<!-- Section Title Contact -->
+					<div class="col-lg-4 col-md-2 p-3">
 						<h2>Contact Me</h2>
+					</div>
 						
 						<!-- Form -->
-						<form action="#" id="contact-me">
+					<div class="col-lg-8 col-md-10">
+						<form  class="p-3 " action="#" id="contact-me">
 							<div class="form-group">
 								<label for="contact-form-name">Name</label>
 								<input type="text" class="form-control" id="contact-form-name" required>
@@ -323,7 +319,6 @@
 							</div>
 						</form>
 					</div>
-
 				</div>
 			</div>
 		</section>
@@ -338,8 +333,8 @@
 					<!-- Contact Details -->
 					<div class="col-12 col-md-6 text-nowrap mt-1">
 						<h5>Contact</h5>
-						<p><a href="mailto:example@example.com" class="link-underline link-underline-opacity-0"><i class="fa-solid fa-envelope m-1"></i>michal.trostowiecki@gmail.com</a></p>
-						<p><a href="tel:+44747474747" class="link-underline link-underline-opacity-0"><i class="fa-solid fa-phone m-1"></i>+(44) 7474747474</a></p>
+						<p><a href="#" class="link-underline link-underline-opacity-0"><i class="fa-solid fa-envelope m-1"></i>michal.trostowiecki@gmail.com</a></p>
+						<p><a href="#" class="link-underline link-underline-opacity-0"><i class="fa-solid fa-phone m-1"></i>+(44) 7474747474</a></p>
 					</div>
 					<div class="col-6 mb-3">
 						<a class="social-icons-git" href="https://linkedin.com/in/michal-trostowiecki"><i class="fa-brands fa-linkedin fa-2xl m-1"></i></a>
